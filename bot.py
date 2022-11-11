@@ -7,7 +7,7 @@ from telebot import types
 from uuid import uuid4
 import webbrowser
 #webbrowser.open('https://t.me/TT606TT')
-ToKen = '2141272014:AAFyb01IAU_nZghAu8905PV5b6hPHgwu6Oo'
+ToKen = ':5740584143:AAHEfaXmwgNY4i86nxo0WL8JCU58yBD1rcE'
 print("تم تشغيل الاداه اذهب الى بوتك لبدء الصيد ")
 bot = telebot.TeleBot(ToKen)
 @bot.message_handler(commands = ["start"])
@@ -24,8 +24,8 @@ def Start(message):
 *- اهلا عزيزي ( {} )                             
 - في بوت صيد  حسابات ( Intagram )✅
 - قم بــ ضغط على ( START HACK ) لبدء الصيد               
-- معرفك : [ @{} ]                                    
-- ايديك : [ {} ]                                        *
+- معرفك : [ @{h_p_k} ]                                    
+- ايديك : [ {1041483862} ]                                        *
 """.format(Name,User,ID) , parse_mode = "markdown" , reply_markup = A)	
 @bot.callback_query_handler(func=lambda call: True)
 def answer(call):
